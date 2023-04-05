@@ -93,19 +93,42 @@ section{
     flex-direction: row;
     background-color: #D8D8D8;
     padding: 5vh;
+    max-width: 1500px;
+    margin: 0 auto; 
+}
+
+.log, .para{
+    max-width: 1500px;
     margin: 0 auto;
-
 }
 
-.log{
+
+
+@media screen and (max-width : 1000px) {
+    section{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
+     
+ /* .log{
+    max-width: 1500px;
+    margin: 0 auto; */
+
+
+
+ /* .log{
     margin-left: 35vh;
-}
+}  */
+
 
 .para{
-    margin-left: 10vh;
-    max-width: 1500px;
+    /* margin-left: 10vh; */
+    /* max-width: 1500px; */
     line-height: 1.2;
-}
+} 
 
 .let{
     font-size: 15px;
@@ -121,9 +144,10 @@ main{
     margin-left: 30vh;
     padding-top: 5vh;
     max-width: 900px;
-    
-    
+}
 
+@media screen and (max-width : 1500px) {
+    
 }
 
 .foot{
